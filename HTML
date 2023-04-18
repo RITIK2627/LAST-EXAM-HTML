@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--THIS IS THE ALL METADATA I USED-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Html Exam</title>
+    <link rel="stylesheet" href="style.css"> <!--this is the link of  css file-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+    <style>
+        body {
+            font-family: 'Montserrat';
+            font-size: 22px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .image {
+            display: block;
+            width: 600px;
+            height: 300px;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="./sample-logo.png" alt="main image" width="50" height="50">       <!--THIS IS FOR INCLUDING IMAGE-->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li> <input type="text" placeholder="Search.."></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <img src="./img1.jpg" alt="main image" width="1500" height="300">
+        <div class="overlay">HTML, CSS, JS FINAL EXAM</div>
+    </section>
+    </header>
+    
+        <section style="background-color: #f57f17; color: #ffffff; padding: 20px;">
+            <h2>I am page title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloribus blanditiis explicabo in reiciendis
+                voluptatum, officia suscipit, molestias quos, quo perferendis. Eius optio unde dignissimos similique ipsum
+                sunt
+                quod quia.</p>
+          </section>
+
+    </section>
+    <div class="container">
+
+        <img class="image" src="./img5.jpg" alt="Image 2">
+        <img class="image" src="./img4.jpg" alt="Image 3">
+        <img class="image" src="./img3.jpg" alt="Image 4">
+    </div>
+    <div class="form-container">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="pickup">Pick One</label><br>
+                <input type="radio" id="pickup-yes" name="pickup" value="true">
+                <label for="pickup-yes">True</label>
+                <input type="radio" id="pickup-no" name="pickup" value="false">
+                <label for="pickup-no">False</label>
+            </div>
+            <div class="form-group">
+                <label for="message">Leave a Message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        
+        <nav>
+            <ul>
+                <img src="" alt="main image" width="50" height="50">
+                <li><a href="#">Title</a></li>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam soluta voluptates illo dolores
+                    excepturi eum facilis quas porro id vel, doloribus sunt, corporis dolor nobis officiis placeat
+                    eligendi. Libero, nobis?</p>
+
+            </ul>
+        </nav>
+
+    </footer>
+</body>
+
+</html>
